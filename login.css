@@ -1,0 +1,70 @@
+body {font-family: Arial, Helvetica, sans-serif;
+  background-image:linear-gradient(rgba(30, 4, 21, 0.7),rgba(4,9,30,0.7)),url(img/mantralayp.jpg) ;
+}
+
+
+input[type=text], input[type=password] {
+  width: 200px;;
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+  display:flex;
+  flex-direction: column;
+  
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:crimson;
+  color: white;
+  font-size: 20px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  margin-left: 40px;
+  cursor: pointer;
+  width: 300px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.apply_box {
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color:palegoldenrod;
+    display: flex;
+    flex-direction: column;
+   
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+  }
+  
+span.psw {
+  text-align: center;
+  margin-left: 150px;
+  display:flex;
+  flex-direction: column;
+ 
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 350px;
+  }
+}
